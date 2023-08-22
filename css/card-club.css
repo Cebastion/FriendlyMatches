@@ -1,0 +1,137 @@
+.content__card-club {
+  margin: 50px 0;
+}
+
+.card-club__line {
+  justify-content: center;
+  border-right: 4px #CB3B45 solid;
+}
+.card-club__block {
+  border-radius: 10px;
+  margin: 20px 0 0 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  background: #265C29;
+}
+.card-club__sub-block-top {
+  display: flex;
+  justify-content: space-between;
+}
+.card-club__sub-block-group {
+  display: flex;
+}
+.card-club__logo img {
+  border-radius: 50%;
+}
+.card-club__info {
+  margin: 0 0 0 20px;
+}
+.card-club__info span {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.card-club__info tr td span:last-child {
+  font-weight: 500;
+}
+.card-club__index {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-left: #1C291D 2px solid;
+  padding: 0 0 0 30px;
+}
+.card-club__sub-block-bottom {
+  margin: 20px 0 0 0;
+  display: flex;
+}
+.card-club__employs span {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.card-club__employs span:first-child {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+.card-club__players {
+  border-left: #1C291D 2px solid;
+  padding: 0 0 0 10px;
+  margin: 0 0 0 10px;
+}
+.card-club__players span {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.card-club__players span:first-child {
+  display: inline-block;
+  margin: 0 0 20px 0;
+  font-size: 16px;
+}
+
+.index__title {
+  text-align: center;
+}
+.index__title span {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.index__title p {
+  margin: 20px 0 0 0;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.index__button {
+  width: 113px;
+  height: 46px;
+  font-size: 15px;
+  background: #FFF;
+  color: #224523;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 30px;
+}
+
+@media (max-width: 600px) {
+  .card-club__index {
+    border-bottom: #1C291D 2px solid;
+    border-left: none;
+    padding: 0 0 30px 0px;
+  }
+  .card-club__sub-block-top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  .card-club__sub-block-group {
+    margin: 50px 0 20px;
+    display: flex;
+  }
+}

@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="./css/header.css" type='text/css'>
+  <link rel="stylesheet" href="./css/footer.css" type='text/css'>
+  <link rel="stylesheet" href="./css/global.css" type='text/css'>
+  <link rel="stylesheet" href="./css/index.css" type='text/css'>
+  <link rel="stylesheet" href="./css/registration.css" type='text/css'>
+  <link rel="stylesheet" href="./css/Cards.css" type='text/css'>
+  <link rel="stylesheet" href="./css/search.css" type='text/css'>
+  <link rel="stylesheet" href="./css/map.css" type='text/css'>
+  <link rel="stylesheet" href="./css/chat.css" type='text/css'>
+  <link rel="stylesheet" href="./css/swiper-bundle.css" type='text/css'>
+  <script src="./JS/burger.js" defer></script>
+  <script src="./JS/menu-burger.js" defer></script>
+  <title>FriendlyMatches</title>
+</head>
+
+<body>
+  <div class="walloper">
+    <div class="header">
+      <div class="header__top">
+        <div class="header__container">
+          <div class="top__social-media">
+            <div class="social-media__title">
+              <span>Connect With US</span>
+            </div>
+            <div class="social-media__icon">
+              <a href="#">
+                <img src="./IMG/SVG/Facebook.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="./IMG/SVG/instagram.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="./IMG/SVG/twitter.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="./IMG/SVG/linkedin.svg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="top__welcome">
+            <span>Welcome to FriendlyMatches®!</span>
+          </div>
+          <div class="top__account-language">
+            <div class="account-language__account">
+              <a class="account-language__account" href="./initial-registration.html">
+                <img src="./IMG/SVG/account.svg" alt="">
+                <div class="account__title">
+                  <span>Login/Registration</span>
+                </div>
+              </a>
+            </div>
+            <select class="language__choose">
+              <option value='en' selected="selected">En</option>
+              <option value='ru'>Ru</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="header__center">
+        <div class="header__container">
+          <div class="center__logo">
+            <a href="./index.html">
+              <img src="./IMG/WEBP/logo.webp" alt="">
+            </a>
+          </div>
+          <ul class="center__menu">
+            <li class="menu__more">
+              <span>Football Database</span>
+              <ul class="menu__drop-down">
+                <a href="./searching-results.html">Find a team</a>
+                <a href="./searching-results.html">Find a player</a>
+                <a href="./searching-results.html">Find facility</a>
+                <a href="./searching-results.html">Advanced search</a>
+              </ul>
+            </li>
+            <li class="menu__more">
+              <span>Events Calendar</span>
+              <ul class="menu__drop-down">
+                <a href="./searching-results.html">Find a team</a>
+                <a href="./searching-results.html">Find a player</a>
+                <a href="./searching-results.html">Find facility</a>
+                <a href="./searching-results.html">Advanced search</a>
+              </ul>
+            </li>
+            <li>
+              <a href="./football-map.html">Interactive Map</a>
+            </li>
+          </ul>
+          <div class="center__navigation">
+            <div class="burger">
+              <span></span>
+            </div>
+            <a href="./messenger.html">
+              <div class="center__chat">
+                <img src="./IMG/SVG/chat.svg" alt="">
+              </div>
+            </a>
+            <div class="center__search">
+              <input type='text' class='search' placeholder='Enter your search here...' />
+              <script src="./JS/routing.js"></script>
+              <a href="./searching-results.html"><img src="./IMG/SVG/search.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="bottom__ranting">
+          <div class="ranting__title">
+            <span>LAST CHANGED CLUBS RATING:</span>
+          </div>
+          <div class="ranting__container">
+            <div class="ranting__list">
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Salyut Belgorod (Russia) 6.00</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Salyut Belgorod (Russia) 6.00</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Balikesirspor (Turkey) 7.00 </span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>HB Torshavn (Faroe islands) 7.00</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Manfredonia (Italy) 6.25</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-red.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Milan (Italy) 6.80</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-red.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Duisburg (Germany) 5.00 </span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-red.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>HJK Helsinki (Finland) 7.75 </span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Real Madrid (Spain) 7.92</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Salyut Belgorod (Russia) 6.00</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Salyut Belgorod (Russia) 6.00</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Balikesirspor (Turkey) 7.00 </span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>HB Torshavn (Faroe islands) 7.00</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Manfredonia (Italy) 6.25</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-red.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Milan (Italy) 6.80</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-red.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Duisburg (Germany) 5.00 </span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-red.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>HJK Helsinki (Finland) 7.75 </span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+              <div class="ranting__block">
+                <div class="ranting__name">
+                  <span>Real Madrid (Spain) 7.92</span>
+                </div>
+                <div class="ranting__result">
+                  <img src="./IMG/SVG/arrow-green.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper__block">
+              <div class="swiper__title">
+                <p>Get to know new Football Database</p>
+                <div class="swiper__text">
+                  <p>players, teams’ staff, trials,tournaments, venues</p>
+                </div>
+              </div>
+              <button class="swiper__button">read more</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__block">
+              <div class="swiper__text">
+                <p>Find new opportunities</p>
+                <p>in direct communication</p>
+                <p>with industry peers of</p>
+                <p>our network</p>
+              </div>
+              <button class="swiper__button">read more</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__block">
+              <div class="swiper__text">
+                <p>Explore industry-</p>
+                <p>only interactive</p>
+                <p>football map</p>
+              </div>
+              <button class="swiper__button">read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <script src="./JS/swiper-bundle.js" defer></script>
+      <script src="./JS/swiper.js" defer></script>
+      <div class="content__container">
+        <div class="content__news-events">
+          <div class="content__news">
+            <div class="news__line">
+              <span>latest News</span>
+            </div>
+            <div class="news__grid">
+              <div class="news__block">
+                <div class="news__img">
+                  <img src="./IMG/WEBP/news-1.webp" alt="">
+                </div>
+                <div class="news__data">
+                  <span>FEBRUARY 1, 2023</span>
+                </div>
+                <div class="news__title">
+                  <span>THE ALCHEMISTS PLAYER STEVEN MASTERSON BREAKS A NEW WORLD RECORD</span>
+                </div>
+                <div class="news__text">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam,...</span>
+                </div>
+              </div>
+              <div class="news__block">
+                <div class="news__img">
+                  <img src="./IMG/WEBP/news-2.webp" alt="">
+                </div>
+                <div class="news__data">
+                  <span>DECEMBER 4, 2023</span>
+                </div>
+                <div class="news__title">
+                  <span>JENNIFER T. DANVERS HAS A SPRAINED WRIST AND WILL BE OUT FOR EIGHT GAMES</span>
+                </div>
+                <div class="news__text">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam,...</span>
+                </div>
+              </div>
+              <div class="news__block">
+                <div class="news__img">
+                  <img src="./IMG/WEBP/news-3.webp" alt="">
+                </div>
+                <div class="news__data">
+                  <span>FEBRUARY 1, 2023</span>
+                </div>
+                <div class="news__title">
+                  <span>THE ALCHEMISTS WILL TRAVEL TO WASHINGTON DC FOR THE GAME AGAINST THE KINGS</span>
+                </div>
+                <div class="news__text">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam,...</span>
+                </div>
+              </div>
+              <div class="news__block">
+                <div class="news__img">
+                  <img src="./IMG/WEBP/news-4.webp" alt="">
+                </div>
+                <div class="news__data">
+                  <span>DECEMBER 4, 2023</span>
+                </div>
+                <div class="news__title">
+                  <span>THE LA PIRATES WON AGAINST THE RED WINGS AND ARE NOW LEADERING THE LEAGUE</span>
+                </div>
+                <div class="news__text">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam,...</span>
+                </div>
+              </div>
+              <div class="news__block">
+                <div class="news__img">
+                  <img src="./IMG/WEBP/news-5.webp" alt="">
+                </div>
+                <div class="news__data">
+                  <span>FEBRUARY 1, 2023</span>
+                </div>
+                <div class="news__title">
+                  <span>ALCHEMISTS STADIUM WILL HAVE A MAX CAPACITY 500.000 FANS</span>
+                </div>
+                <div class="news__text">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam,...</span>
+                </div>
+              </div>
+              <div class="news__block">
+                <div class="news__img">
+                  <img src="./IMG/WEBP/news-6.webp" alt="">
+                </div>
+                <div class="news__data">
+                  <span>FEBRUARY 1, 2023</span>
+                </div>
+                <div class="news__title">
+                  <span>VETERAN PLAYER XAVIER MCCOY WILL COACH THE SHARKS NEXT LEAGUE</span>
+                </div>
+                <div class="news__text">
+                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam,...</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content__events">
+            <div class="events__block">
+              <div class="events__line">
+                <span>Upcoming Events</span>
+              </div>
+              <div class="events__category">
+                <span>Find a schedule of Football tournaments, matches, training camps and seminars registered on our
+                  platform.</span>
+                <select class='decorated' name="" id="">
+                  <option value="">category</option>
+                  <option value="">category</option>
+                  <option value="">category</option>
+                  <option value="">category</option>
+                </select>
+              </div>
+              <div class="events__matches">
+                <div class="match__block">
+                  <div class="matches__day">
+                    <span>06</span>
+                    <p>JUL</p>
+                  </div>
+                  <div class="matches__name">
+                    <span>Tallinn Cup</span>
+                    <p>Tallinn, Estonia</p>
+                  </div>
+                  <div class="matches__data">
+                    <span>06 Jul 2023 - 09 Jul 2023</span>
+                  </div>
+                </div>
+                <div class="match__block">
+                  <div class="matches__day">
+                    <span>24</span>
+                    <p>JUL</p>
+                  </div>
+                  <div class="matches__name">
+                    <span>Football Cup Barcelona</span>
+                    <p>Tallinn, Estonia</p>
+                  </div>
+                  <div class="matches__data">
+                    <span>24 Jul 2023 - 28 Jul 2023</span>
+                  </div>
+                </div>
+                <div class="match__block">
+                  <div class="matches__day">
+                    <span>21</span>
+                    <p>OCT</p>
+                  </div>
+                  <div class="matches__name">
+                    <span>LAOLA Cup</span>
+                    <p>Hamburg, Germany</p>
+                  </div>
+                  <div class="matches__data">
+                    <span>21 Oct 2023 - 29 Oct 2023</span>
+                  </div>
+                </div>
+                <div class="match__block">
+                  <div class="matches__day">
+                    <span>10</span>
+                    <p>NOV</p>
+                  </div>
+                  <div class="matches__name">
+                    <span>Lisbon Football Youth Cup</span>
+                    <p>Lisbon, Portugal</p>
+                  </div>
+                  <div class="matches__data">
+                    <span>28 Oct 2023 - 29 Oct 2023</span>
+                  </div>
+                </div>
+                <div class="match__block">
+                  <div class="matches__day">
+                    <span>02</span>
+                    <p>DEC</p>
+                  </div>
+                  <div class="matches__name">
+                    <span>berlin Cup</span>
+                    <p>Hamburg, Germany</p>
+                  </div>
+                  <div class="matches__data">
+                    <span>28 Oct 2023 - 29 Oct 2023</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__about">
+          <div class="about__line news__line">
+            <span>About FriendlyMatches®</span>
+          </div>
+          <div class="about__block">
+            <div class="about__text">
+              <span>
+                FriendlyMatches® is a free platform for football industry.Its key services:- Football Database
+                (facilities, tournaments, clubs, players, etc.) with a possibility of direct communication,- interactive
+                football map,- built-in messenger that can be used to send personal messages or group invitations to
+                events.
+                JOIN US (by selecting roles in the system from the 11 available) AND FIND YOUR MATCH!- If you are a
+                Sports Director or Head of Scouting, find players or coaches to suit your requirements.- If you are a
+                Team Manager, find a training camp advertised by facility owner.
+                And many more perspectives in direct communication with industry peers!
+              </span>
+            </div>
+            <div class="about__img">
+              <img src="./IMG/WEBP/laptop.webp" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="content__navigation">
+          <div class="navigation__row">
+            <div class="navigation__block">
+              <div class="navigation__img">
+                <img src='./IMG/SVG/home.svg' />
+              </div>
+              <div class="navigation__title">
+                <span>Find your match on our platform</span>
+              </div>
+              <button class="navigation__button">Join Us</button>
+            </div>
+            <div class="navigation__block">
+              <div class="navigation__img">
+                <img src='./IMG/SVG/man.svg' />
+              </div>
+              <div class="navigation__title">
+                <span>See football venues in ap mode</span>
+              </div>
+              <button class="navigation__button">Football Map</button>
+            </div>
+            <div class="navigation__block">
+              <div class="navigation__img">
+                <img src='./IMG/SVG/handshake.svg' />
+              </div>
+              <div class="navigation__title">
+                <span>Our rating shows the popularity of the players, clubs, facilities among the FriendlyMatches®
+                  users.</span>
+              </div>
+              <button class="navigation__button">Rating</button>
+            </div>
+          </div>
+        </div>
+        <div class="content__number">
+          <div class="number__block">
+            <div class="number__line events__line">
+              <span>FriendlyMatches® in figures</span>
+            </div>
+            <div class="number__row">
+              <div class="number__text">
+                <span>0 $</span>
+                <p>our service fee</p>
+              </div>
+              <div class="number__text">
+                <span>911</span>
+                <p>registered users as per now</p>
+              </div>
+              <div class="number__text">
+                <span>8</span>
+                <p>FriendlyMatches® country managers</p>
+              </div>
+              <div class="number__text">
+                <span>2.665</span>
+                <p>club profiles</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__player-club-intermediaries">
+          <div class="player-club-intermediaries__line about__line  news__line">
+            <span>For Players</span>
+          </div>
+          <div class="player-club-intermediaries__block">
+            <div class="player-club-intermediaries__info">
+              <div class="player-club-intermediaries__text">
+                <span>YOU ARE A PLAYER, HERE YOU CAN FIND ALL YOU NEED FOR YOUR LIFE AND CAREER:
+                  <p>- Career development</p>
+                  <p>- Direct communication with clubs and teams decision makers</p>
+                  <p>- Vacancies in other clubs published on our platform</p>
+                  <p>- Interactions with other players, football fans, media, advertisers and intermediaries</p>
+                  <p>- Support staff (interpreters, real estate agents, etc)</p>
+                </span>
+              </div>
+              <button class="player-club-intermediaries__button">
+                try
+              </button>
+            </div>
+            <div class="player-club-intermediaries__img">
+              <img src="./IMG/WEBP/player.webp" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="content__player-club-intermediaries">
+          <div class="player-club-intermediaries__line about__line  news__line">
+            <span>For Clubs/Teams Representatives</span>
+          </div>
+          <div class="player-club-intermediaries__block club__block">
+            <div class="player-club-intermediaries__info">
+              <div class="player-club-intermediaries__text">
+                <span>YOU ARE A CLUB/TEAM DECISION MAKER OR OPERATIONAL STAFF, THE FOLLOWING ARE AVAILABLE TO YOU ON OUR
+                  PLATFORM:
+                  <p>- Find new players, coaches or staff</p>
+                  <p>- Post your job vacancies</p>
+                  <p>- Facilities and pitches for team camps, trainings, friendly matches and tournaments</p>
+                  <p>- Calendar of football events</p>
+                  <p>- Search for Sponsors and investors</p>
+                  <p>- Interactions with football fans, media, advertisers and intermediaries</p>
+                  <p>- Search for Suppliers of equipment, gear and outfits</p>
+                  <p>IF YOU ARE A CLUB EMPLOYEE CONSIDERING NEW EMPLOYMENT OPPORTUNITIES, YOU CAN FIND VACANCIES IN
+                    OTHER CLUBS PUBLISHED ON OUR PLATFORM</p>
+                </span>
+              </div>
+              <button class="player-club-intermediaries__button">
+                try
+              </button>
+            </div>
+            <div class="player-club-intermediaries__img">
+              <img src="./IMG/WEBP/club.webp" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="content__player-club-intermediaries">
+          <div class="player-club-intermediaries__line about__line  news__line">
+            <span>For Intermediaries</span>
+          </div>
+          <div class="player-club-intermediaries__block">
+            <div class="player-club-intermediaries__info">
+              <div class="player-club-intermediaries__text">
+                <span>YOU ARE A FOOTBALL INTERMEDIARY, HERE YOU CAN FIND ALL YOU NEED FOR YOUR BUSINESS:
+                  <p>- Direct communication with players, coaches and clubs decision makers</p>
+                  <p>- Facilities for friendly matches, tournaments or camps</p>
+                  <p>- Calendar of football events</p>
+                  <p>- Interactions with media, advertisers and other intermediaries</p>
+                </span>
+              </div>
+              <button class="player-club-intermediaries__button">
+                try
+              </button>
+            </div>
+            <div class="player-club-intermediaries__img">
+              <img src="./IMG/WEBP/handshake.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer__container">
+        <div class="footer__left">
+          <a href="#">About us</a>
+          <a href="#">Our Country Managers</a>
+          <a href="#">FAQs</a>
+        </div>
+        <div class="footer__right">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms of use</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

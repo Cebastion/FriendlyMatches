@@ -1,0 +1,296 @@
+.content {
+
+  &__card-club {
+    margin: 50px 0;
+  }
+}
+
+.card-club {
+
+  &__line {
+    background: #FFF;
+    justify-content: center;
+    border-right: 4px #265C29 solid;
+    border-left: 4px #265C29 solid;
+    span{
+      color: #323232;
+    }
+  }
+
+  &__block {
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background: #FFF;
+  }
+
+  &__sub-block {}
+
+  &__sub-block-top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__sub-block-group {
+    display: flex;
+  }
+
+  &__logo {
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  &__info {
+    margin: 0 0 0 20px;
+
+    span, a {
+      color: #323232;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    & tr td span:last-child {
+      font-weight: 400;
+    }
+  }
+
+  &__index {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-left: #1C291D 2px solid;
+    padding: 0 0 0 30px;
+  }
+
+  &__sub-block-bottom {
+    margin: 20px 0 0 0;
+    display: flex;
+  }
+
+  &__employs {
+    span {
+      color: #323232;
+      font-family: Inter;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    & span:first-child {
+      display: inline-block;
+      font-size: 16px;
+      margin: 0 0 20px 0;
+    }
+  }
+
+  &__players {
+    border-left: #1C291D 2px solid;
+    padding: 0 0 0 10px;
+    margin: 0 0 0 10px;
+
+    span {
+      color: #323232;
+      font-family: Inter;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    & span:first-child {
+      display: inline-block;
+      margin: 0 0 20px 0;
+      font-size: 16px;
+    }
+  }
+}
+
+.card-facility__logo{
+  img{
+    width: 200px;
+    height: 100px;
+  }
+}
+.card-facility__sub-block-bottom{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.card-facility__players{
+  span{
+    color: #323232;
+      font-family: Inter;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      display: inline-block;
+      margin: 0 0 20px 0;
+      font-size: 16px;
+  }
+  a{
+    color: #323232;
+      font-family: Inter;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+  }
+  display: flex;
+  border-right: #1C291D 2px solid;
+  padding: 0 10px 0 0px;
+  margin: 0 10px 0 0px;
+  flex-direction: column;
+}
+
+.event__text{
+  width: 100%;
+  padding: 10px 0 20px;
+  border-bottom: 1px solid #1C291D;
+  span:first-child{
+    color: #323232;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      display: inline-block;
+      font-size: 16px;
+  }
+  & span, p, p a, a{
+    font-size: 13px;
+    font-weight: 600;
+    color: #323232;
+      font-family: Inter;
+      font-style: normal;
+      line-height: normal;
+  }
+}
+
+.event__text:last-child{
+  border-bottom: none;
+}
+
+.card-player__sub-block{
+  display: flex;
+    flex-direction: column;
+}
+
+.card-player__logo{
+  img{
+    width: 200px;
+    height: 155px;
+    border-radius: 10px;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.card-player__sub-block-bottom{
+  display: flex;
+  flex-direction: column;
+}
+
+.player__block{
+  position: relative;
+  display: flex;
+  width: 270px;
+  height: 46px;
+  background: #FFF;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px 30px 0 0;
+  top: 27px;
+  span{
+    color: #323232;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+      display: inline-block;
+      font-size: 16px;
+  }
+}
+
+.button__player-contact{
+  margin: 0 auto;
+  width: 237px;
+  height: 46px;
+  font-size: 15px;
+    background: #224523;
+    color: #FFF;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 30px;
+}
+
+.card-intermediary__logo{
+  img{
+    width: 145px;
+  }
+}
+
+@media(max-width:890px) {
+  .card-player__index {
+    border-bottom: #1C291D 2px solid;
+    border-left: none;
+    padding: 0 0 30px 0px;
+  }
+  .card-player__sub-block-top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+.card-player__sub-block-group {
+  margin: 50px 0 20px;
+  display: flex;
+}
+}
+
+@media(max-width:740px){
+  .card-player__sub-block-group {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
+
+@media(max-width:600px) {
+  .card-club__index {
+    border-bottom: #1C291D 2px solid;
+    border-left: none;
+    padding: 0 0 30px 0px;
+  }
+  .card-club__sub-block-top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+.card-club__sub-block-group {
+  margin: 50px 0 20px;
+  display: flex;
+}
+}
+
+@media(max-width:490px){
+  .card-player__info{
+    margin: 10px 0;
+    text-align: center;
+  }
+}

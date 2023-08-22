@@ -1,0 +1,335 @@
+@charset "UTF-8";
+.content__registration {
+  margin: 50px 0;
+}
+
+.registration__form {
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+  background: #FFF;
+  width: 100%;
+}
+.registration__form-mobile {
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.registration__form-mobile .registration__inputs {
+  display: flex;
+  flex-direction: column;
+}
+.registration__form-mobile .registration__inputs input:nth-child(odd) {
+  margin: 10px 0 0 0;
+}
+.registration__title {
+  text-align: center;
+}
+.registration__title h1 {
+  color: #323232;
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 17px;
+}
+.registration__title p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #323232;
+  text-align: center;
+}
+.registration__inputs {
+  margin: 10px 0;
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr;
+}
+.registration__inputs input {
+  margin: 10px 0 0 0;
+  color: #FFF;
+  height: 40px;
+  border-radius: 30px;
+  background: #224523;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0 0 0 20px;
+}
+.registration__inputs input:nth-child(odd) {
+  margin: 10px 10px 0 0;
+}
+.registration__inputs select {
+  margin: 10px 0 0 0;
+  color: #FFF;
+  height: 40px;
+  border-radius: 30px;
+  background: #224523;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0 0 0 20px;
+}
+.registration__inputs option {
+  border-radius: 10px;
+}
+.registration__buttons {
+  margin: 50px 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.registration__refresh {
+  width: 200px;
+  height: 40px;
+  background: #224523;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 30px;
+}
+.registration__save {
+  margin: 10px 0 0 0;
+  width: 200px;
+  height: 40px;
+  background: #224523;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 30px;
+}
+
+.choose__select {
+  display: flex;
+  justify-content: center;
+}
+.choose__select select {
+  width: 50%;
+}
+
+.registration-event__inputs {
+  display: flex;
+  flex-direction: column;
+}
+.registration-event__inputs textarea {
+  margin: 10px 0;
+  color: #FFF;
+  height: 100px;
+  border-radius: 30px;
+  background: #224523;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  padding: 20px 0 0 20px;
+}
+
+.registration__date {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  margin: 0 20px;
+}
+
+.custom-checkbox {
+  display: none;
+}
+
+.checkbox-label {
+  position: relative;
+  margin: 0 0 0 10px;
+  color: #323232;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.checkbox-label::before {
+  content: "";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -26px;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ccc;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+/* Имитация галочки */
+.custom-checkbox:checked + .checkbox-label::before {
+  content: "✓";
+  color: #FFF;
+  padding: 2.5px 0 0 0;
+  font-size: 10px;
+  background-color: #275C29;
+  text-align: center;
+  line-height: 20px;
+}
+
+.add__select {
+  margin: 10px 0 0 10px;
+  cursor: pointer;
+}
+.add__select span {
+  color: #323232;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.visible {
+  display: none;
+}
+
+.visible.active {
+  display: block;
+}
+
+.registration__grid {
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr;
+}
+.registration__grid select {
+  margin: 10px 10px 0 0;
+}
+
+.registration__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.registration__row select {
+  padding: 0 0 0 10px;
+  margin: 10px 5px 0 0px;
+}
+
+.registration-event__buttons button:nth-child(3) {
+  margin: 10px 0;
+}
+
+.change__inputs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.change__inputs input {
+  margin: 10px 5px 0 5px;
+}
+.change__inputs input:nth-child(odd) {
+  margin: 0;
+}
+
+.upload-button-reg {
+  display: inline-block;
+  background-color: grey;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.upload-button-reg:hover {
+  background-color: grey;
+}
+
+.upload-button-reg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#avatar {
+  display: none;
+}
+
+.avatar__row {
+  display: flex;
+  align-items: center;
+}
+.avatar__row span {
+  margin: 0 10px 0 0;
+  color: #323232;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 880px) {
+  .change__inputs input:last-child {
+    margin: 10px 5px 0 5px;
+  }
+}
+@media (max-width: 780px) {
+  .registration__date {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .registration__date input {
+    order: 2;
+  }
+  .registration__date .visible {
+    order: 3;
+  }
+  .registration__date .checkbox {
+    order: 1;
+  }
+}
+@media (max-width: 600px) {
+  .registration__inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .registration__inputs input {
+    width: 100%;
+  }
+  .choose__select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .choose__select select {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .registration-main__flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
